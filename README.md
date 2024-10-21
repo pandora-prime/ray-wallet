@@ -1,6 +1,6 @@
 # Welcome Ray Wallet
 
-<img src="https://res.cloudinary.com/dfbhd7liw/image/upload/v1729548604/screenshot.png" alt="Ray Wallet Screenshot"/>
+<img src="https://res.cloudinary.com/dfbhd7liw/image/upload/v1729554006/screenshot.png" alt="Ray Wallet Screenshot"/>
 
 Ray Wallet is a user-friendly cryptocurrency wallet designed for seamless asset management. It allows users to easily send, receive, and manage digital assets on the go, with a focus on simplicity, mobility, and security. 
 
