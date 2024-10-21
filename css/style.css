@@ -750,10 +750,14 @@ body {
   background: radial-gradient(70.37% 70.48% at 49.53% 50.21%, #392c74 0%, #0F0A3B 42%, #000724 100%);
 }
 
-
+.ficon {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(220deg) brightness(101%) contrast(94%);
+  transition: all .5s;
+}
 
 .ficon:hover {
-  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(220deg) brightness(101%) contrast(94%);
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(17deg) brightness(101%) contrast(94%);
+  transition: all .5s;
 }
 
 .hover\:text-strongCyan:hover {
