@@ -981,3 +981,7 @@ h3, h5 {
 #supercharge p {
   font-size: 19px;
 }
+
+#hero {
+  background: radial-gradient(74.49% 74.61% at 55.89% 2.34%, #1F1259 0%, #0F0A3B 42%, hsl(228.33deg 100% 7.06% / 0%) 100%);
+}
