@@ -34,10 +34,10 @@
       <div class="section-container mb-40 pt-16">
         <img src="images/logo.svg" alt="" class="mx-auto my-16 logo mt-0" height="150"/>
 
-        <h3>Is the new <span class="accent">RGB Wallet</span></h3>
+        <h3>Your <span class="accent">RGB Wallet</span></h3>
 
         <p class="section-content mb-10 text-2xl">
-          Simplifying your digital asset experience, one tap at a time.
+          The easiest way to start using RGB.
         </p>
 
         <!-- Button Container -->
@@ -75,6 +75,7 @@
         <h3>Access <span class="accent">Ray Wallet</span> Anywhere</h3>
         <p class="section-content mb-24 text-xl">
           Effortless and mobile-friendly, enabling seamless asset sending and receiving.
+          Available for iOS, support for Android devices is coming soon.
         </p>
         <div class="flex flex-col mb-24 section-container app-screens">
           <img src="images/mobile-app_1.svg" alt="img-app" class="img-1" />
@@ -109,7 +110,7 @@
             <img src="images/2.svg" alt="" class="mb-6" />
             <h5>Mobile</h5>
             <p class="max-w-md text-grayishBlue">
-              Access your wallet anytime, from any mobile device.
+              Access your wallet anytime, from any iOS mobile device.
             </p>
           </div>
 
@@ -138,13 +139,13 @@
         <!-- Button Container -->
         <div class="button-container">
           <a
-            href="#"
+            href="http://start.raywallet.app" target="_blank"
             class="primary p-4 px-8 rounded-full shadow-lg bg-strongCyan duration-200 hover:opacity-80"
           >
             Download for iOS
           </a>
           <a
-            href="#"
+            href="#" target="_blank"
             class="secondary soon-label pointer-events-none p-4 px-8 rounded-full shadow-lg bg-lightBlue duration-200 hover:opacity-80"
           >
             Download for Android
@@ -168,20 +169,20 @@
             >
               <!-- Menu 1 -->
               <div class="flex flex-col space-y-4 text-center md:text-left">
-                <div><a href="#" class="hover:text-strongCyan">FAQs</a></div>
+                <div><a href="http://wtf.rgb.tech" target="_blank" class="hover:text-strongCyan">FAQs</a></div>
                 
               </div>
               <!-- Menu 2 -->
               <div class="flex flex-col space-y-4 text-center md:text-left">
                 <div>
-                  <a href="#" class="hover:text-strongCyan">Privacy Policy</a>
+                  <a href="https://x.com/raywallet_app" target="_blank" class="hover:text-strongCyan">Subscribe</a>
                 </div>
                 
               </div>
               <!-- Menu 3 -->
               <div class="flex flex-col space-y-4 text-center md:text-left">
                 <div>
-                  <a href="https://x.com/raywallet_app" class="hover:text-strongCyan" target="_blank">Contact Us</a>
+                  <a href="mailto:enquiries@pandoraprime.ch" class="hover:text-strongCyan" target="_blank">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -201,5 +202,23 @@
         </div>
       </div>
     </footer>
+    <a href="https://x.com/raywallet_app" class="soc-icon fixed-twitter" target="_blank">
+      <img src="images/icon-twitter.svg" alt="Twitter" class="duration-200 ficon" />
+      <span class="twitter-text">Follow us</span>
+    </a>
+    <script>
+      window.addEventListener('scroll', () => {
+        const twitterIcon = document.querySelector('.fixed-twitter');
+        const scrollPosition = window.scrollY + window.innerHeight;
+        const footerPosition = document.querySelector('footer').offsetTop;
+
+        if (scrollPosition >= footerPosition) {
+          twitterIcon.classList.add('hidden');
+        } else {
+          twitterIcon.classList.remove('hidden');
+        }
+      });
+    </script>
+
   </body>
 </html>

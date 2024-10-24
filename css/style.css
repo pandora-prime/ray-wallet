@@ -985,3 +985,64 @@ h3, h5 {
 #hero {
   background: radial-gradient(74.49% 74.61% at 55.89% 2.34%, #1F1259 0%, #0F0A3B 42%, hsl(228.33deg 100% 7.06% / 0%) 100%);
 }
+
+.fixed-twitter {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  border-radius: 30px;
+  padding: 8px 16px;
+  background-color: #292362;
+  border: 1px solid #463c97;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .fixed-twitter {
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 9px;
+    height: 45px;
+    width: 45px;
+  }
+}
+
+.fixed-twitter img {
+  width: 30px;
+}
+
+.fixed-twitter:hover {
+  padding: 8px 16px;
+  width: 170px;
+  text-wrap: nowrap;
+}
+
+.fixed-twitter:hover img {
+  width: 20px;
+}
+
+.twitter-text {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+  text-wrap: nowrap;
+}
+
+.fixed-twitter:hover .twitter-text {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
