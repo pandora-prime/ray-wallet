@@ -846,6 +846,13 @@ body {
   color: #000;
   font-weight: 700;
 }
+
+.button-container>.primary.with-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .button-container > .secondary {
   background: linear-gradient(90deg, #4bff00 0%, #5300ff 49%, #fc4fdc 100%);
   position: relative;
